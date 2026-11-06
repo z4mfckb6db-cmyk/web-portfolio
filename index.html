@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mamedov Shamil | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:wght@300;400;600&family=Questrial&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <a href="#home" class="logo">Mamedov Shamil</a>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle menu" aria-controls="nav" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="#home" class="nav__link active">Home</a>
+      <a href="#portfolio" class="nav__link">Portfolio</a>
+      <a href="#contact" class="nav__link">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero__text">
+      <p class="hero__welcome">Welcome</p>
+      <h1 class="hero__title">I’m Mamedov Shamil</h1>
+      <p class="hero__role">Student, future DevOps Engineer</p>
+    </div>
+    <div class="hero__photo" role="img" aria-label="Portrait of Mamedov Shamil"></div>
+  </section>
+
+  <!-- Section shortcuts -->
+  <nav class="quick-links" aria-label="Page sections">
+    <a href="#about">About Me</a>
+    <a href="#skills">My skills</a>
+    <a href="#language">Language</a>
+    <a href="#studies">Studies</a>
+    <a href="#portfolio">My Work Experience</a>
+    <a href="#contact">Contacts</a>
+  </nav>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about__media">
+      <div class="about__block"></div>
+      <div class="about__photo" role="img" aria-label="Shamil at work"></div>
+    </div>
+    <div class="about__text">
+      <h2 class="about__title">About Me</h2>
+      <p>My name is Shamil, and I am a second-year student at Ala-Too College. I study Information Technology.I am interested in computers, programming, software, and modern technologies. I enjoy learning new things and discovering how technology works. I always try to improve my knowledge and develop new skills.I consider myself a responsible, hardworking, and friendly person. I can work both independently and in a team. I like solving problems, learning from my mistakes, and trying new things.During my studies, I want to gain more knowledge and practical experience in the IT field. I am also interested in learning different programming languages and improving my computer skills.My main goal is to become a professional IT specialist, work on interesting projects, and build a successful career in the future.</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills__grid">
+      <div class="skill"><div class="skill__circle"><span class="count" data-target="3.0">0</span></div><p>JAVA</p></div>
+      <div class="skill"><div class="skill__circle"><span class="count" data-target="3.5">0</span></div><p>HTML/CSS</p></div>
+      <div class="skill"><div class="skill__circle"><span class="count" data-target="2.5">0</span></div><p>LINUX</p></div>
+      <div class="skill"><div class="skill__circle"><span class="count" data-target="5.0">0</span></div><p>VIBECODING</p></div>
+    </div>
+  </section>
+
+  <!-- Language + Studies -->
+  <section class="info">
+    <div class="info__col" id="language">
+      <h2 class="section-title">Language</h2>
+      <div class="lang">
+        <div class="lang__head"><h3>English</h3><span>Good</span></div>
+        <div class="bar"><div class="bar__fill" data-width="70"></div></div>
+      </div>
+      <div class="lang">
+        <div class="lang__head"><h3>Kyrgyz</h3><span>Not Bad</span></div>
+        <div class="bar"><div class="bar__fill" data-width="55"></div></div>
+      </div>
+      <div class="lang">
+        <div class="lang__head"><h3>Russian</h3><span>Native</span></div>
+        <div class="bar"><div class="bar__fill" data-width="100"></div></div>
+      </div>
+    </div>
+    <div class="info__col" id="studies">
+      <h2 class="section-title">Studies</h2>
+      <div class="study">
+        <div class="study__icon" aria-hidden="true"><img src="media/alatoo1_profile.jpg" alt=""></div>
+        <div><h3>Ala-Too College</h3><p>Will graduate in  &nbsp; 2028</p></div>
+      </div>
+      <div class="study">
+        <div class="study__icon" aria-hidden="true"><img src="media/alatoo1_profile.jpg" alt=""></div>
+        <div><h3>Ala-Too University</h3><p>Will graduate in &nbsp; 2031</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work experience -->
+  <section class="work" id="portfolio">
+    <div class="work__head">
+      <h2 class="section-title">My Work Experience</h2>
+      <span class="work__line"></span>
+    </div>
+    <div class="work__grid">
+      <article class="card img-1"><div class="card__info"><h3>Google</h3><p>CEO</p><small>2010-2014</small></div></article>
+      <article class="card img-2"><div class="card__info"><h3>Microsoft</h3><p>Sr.Manager</p><small>2014-2018</small></div></article>
+      <article class="card img-3"><div class="card__info"><h3>Amazon</h3><p>UI/UX Designer</p><small>2018-2022</small></div></article>
+      <article class="card img-4"><div class="card__info"><h3>Apple</h3><p>Software Engineer</p><small>2022-2026</small></div></article>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta" id="contact">
+    <h2>Interested in my Work</h2>
+    <p>Let’s connect and build something great together.</p>
+    <div class="socials" aria-label="Social media links">
+      <a href="https://www.instagram.com/sh.mamedov_/" target="_blank" rel="noreferrer" class="social social--instagram" aria-label="Instagram">Instagram</a>
+      <a href="https://wa.me/996755115691" target="_blank" rel="noreferrer" class="social social--whatsapp" aria-label="WhatsApp">WhatsApp</a>
+      <a href="https://www.facebook.com/search/top?q=Shamil%20Mamedov" target="_blank" rel="noreferrer" class="social social--facebook" aria-label="Search Facebook for Shamil Mamedov">Facebook</a>
+      <a href="https://github.com/z4mfckb6db-cmyk" target="_blank" rel="noreferrer" class="social social--github" aria-label="GitHub">GitHub</a>
+    </div>
+  </section>
+
+  <footer class="footer">© 2026 Mamedov Shamil</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
